@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+69036c407c4a3faf881340f534a5959a CMakeFiles/MNN_SCHEMA

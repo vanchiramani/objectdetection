@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../../include/MNNDefine.h
+assert.h
+-
+stdio.h
+-
+TargetConditionals.h
+../../../include/TargetConditionals.h
+android/log.h
+-
+
+../../../source/core/Macro.h
+MNNDefine.h
+../../../source/core/MNNDefine.h
+
+/home/ecolab/objectdetection/alibabamnn/tools/cpp/getPerformance.cpp
+string.h
+-
+chrono
+-
+cstdint
+-
+vector
+-
+stdlib.h
+-
+MNNDefine.h
+/home/ecolab/objectdetection/alibabamnn/tools/cpp/MNNDefine.h
+Macro.h
+/home/ecolab/objectdetection/alibabamnn/tools/cpp/Macro.h
+arm_neon.h
+-
+

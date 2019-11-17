@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "/home/ecolab/objectdetection/alibabamnn/demo/android/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ecolab/objectdetection/alibabamnn/demo/android/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "MNN-Debug-armeabi-v7a": {
+      "artifactName": "MNN",
+      "abi": "armeabi-v7a",
+      "output": "/home/ecolab/objectdetection/alibabamnn/demo/android/app/libs/armeabi-v7a/libMNN.so"
+    },
+    "mnncore-Debug-armeabi-v7a": {
+      "artifactName": "mnncore",
+      "buildCommand": "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ecolab/objectdetection/alibabamnn/demo/android/app/.cxx/cmake/debug/armeabi-v7a --target mnncore",
+      "abi": "armeabi-v7a",
+      "output": "/home/ecolab/objectdetection/alibabamnn/demo/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmnncore.so"
+    }
+  }
+}

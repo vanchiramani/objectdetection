@@ -1,0 +1,55 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/ecolab/objectdetection/alibabamnn/demo/android/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ecolab/objectdetection/alibabamnn/demo/android/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"MNN-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "MNN",
+			"buildType" : "debug",
+			"output" : "/home/ecolab/objectdetection/alibabamnn/demo/android/app/libs/armeabi-v7a/libMNN.so",
+			"toolchain" : "8745615479391268056"
+		},
+		"mnncore-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "mnncore",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ecolab/objectdetection/alibabamnn/demo/android/app/.cxx/cmake/debug/armeabi-v7a --target mnncore",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/root/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fopenmp -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math -fno-rtti -fno-exceptions -flax-vector-conversions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/ecolab/objectdetection/alibabamnn/demo/android/app/src/main/jni/mnnnetnative.cpp",
+					"workingDirectory" : "/home/ecolab/objectdetection/alibabamnn/demo/android/app/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=/root/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DMNN_USE_LOGCAT -Dmnncore_EXPORTS -I../../../../includes  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security   -fopenmp -std=c++11 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math -fno-rtti -fno-exceptions -flax-vector-conversions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/ecolab/objectdetection/alibabamnn/demo/android/app/src/main/jni/mnnportraitnative.cpp",
+					"workingDirectory" : "/home/ecolab/objectdetection/alibabamnn/demo/android/app/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/ecolab/objectdetection/alibabamnn/demo/android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmnncore.so",
+			"toolchain" : "8745615479391268056"
+		}
+	},
+	"toolchains" : 
+	{
+		"8745615479391268056" : 
+		{
+			"cCompilerExecutable" : "/root/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/root/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
